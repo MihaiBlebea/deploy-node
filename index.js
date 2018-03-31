@@ -12,8 +12,8 @@ var config = {
     port: process.env.PORT,
     localRoot: __dirname + process.env.LOCAL_ROOT,
     remoteRoot: process.env.REMOTE_ROOT,
-    include: process.env.INCLUDE_FILES,
-    exclude: ['.git', 'vendor', 'node_modules']
+    include: [],
+    exclude: ['.git', 'vendor', 'deploy-node', 'node_modules']
 }
 
 // Deploy files and folders specified in the config.localToot 
